@@ -1,0 +1,20 @@
+.chips {
+  background-color: #808080;
+  padding: 8px 16px 8px 8px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.chipsImg,.chips > span{
+    margin-right: 10px !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", monospace !important;
+}
