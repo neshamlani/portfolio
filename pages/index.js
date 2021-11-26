@@ -64,7 +64,7 @@ const App = () => {
 
   const InfoChip = ({ src, title }) => (
     <div className="chips">
-      <Image src={src} width={30} height={30} layout='fixed' alt={title}/>
+      <Image src={src} width={30} height={30} layout='fixed' alt={title} />
       <div className="fs-6">{title}</div>
     </div>
   );
@@ -281,7 +281,7 @@ const App = () => {
               <div className="fs-1 fw-bold text-center">Skills</div>
               <div className="d-flex justify-content-center flex-wrap">
                 {skillsList.map((skill) => (
-                  <InfoChip src={skill.src} title={skill.title} />
+                  <InfoChip src={skill.src} title={skill.title} key={skill} />
                 ))}
               </div>
             </div>
@@ -324,7 +324,7 @@ const App = () => {
                     rel="noreferrer"
                     className="chipsImg"
                   >
-                    <Image src={github} width={30} height={30} layout='fixed' />
+                    <Image src={github} width={30} height={30} layout='fixed' alt='Github' />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/neshamlani1970/"
@@ -332,7 +332,7 @@ const App = () => {
                     rel="noreferrer"
                     className="chipsImg"
                   >
-                    <Image src={linkedin} width={30} height={30} layout='fixed' />
+                    <Image src={linkedin} width={30} height={30} layout='fixed' alt='LinkedIn' />
                   </a>
                   <a
                     href="https://twitter.com/groot_1970"
@@ -340,7 +340,7 @@ const App = () => {
                     rel="noreferrer"
                     className="chipsImg"
                   >
-                    <Image src={twitter} width={30} height={30} layout='fixed' />
+                    <Image src={twitter} width={30} height={30} layout='fixed' alt='Twitter' />
                   </a>
                 </div>
               </div>
