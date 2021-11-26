@@ -77,6 +77,8 @@ const App = () => {
           rel="stylesheet"
         />
         <title>NESH AMLANI</title>
+        <meta name="robots" content="all" />
+        <meta name="googlebot" content="all" />
         <meta name="description" content="Currently developing using ReactJS & NextJS, while enhancing skills for BackEnd and Flutter." />
         <meta name="author" content="Nesh Amlani" />
         <meta name="google-site-verification" content="wvMP8u5OEj3LMEgQM5naUQZoV31zkD28erSViRc1FAY" />
