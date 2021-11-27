@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://portfolio-groot-1970.vercel.app/
+Host: https://portfolio-nesh-amlani.vercel.app/
 
 # Sitemaps
-Sitemap: https://portfolio-groot-1970.vercel.app/sitemap.xml
+Sitemap: https://portfolio-nesh-amlani.vercel.app/sitemap.xml
