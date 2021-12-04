@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://portfolio-groot-1970.vercel.app/',
+  siteUrl: 'https://portfolio-nesh-amlani.vercel.app',
   generateRobotsTxt: true,
 }
