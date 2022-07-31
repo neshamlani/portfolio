@@ -55,6 +55,7 @@ const Skills = () => {
               <a
                 href="http://bulletin.feccupit.ro/archive/view/2018_2_4.html"
                 target="_blank"
+                rel="noreferrer"
                 style={{ marginLeft: 5, color: "#fff" }}
               >
                 TESTING NETWORK SECURITY USING KALI LINUX.

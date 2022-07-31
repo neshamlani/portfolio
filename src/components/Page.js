@@ -25,7 +25,7 @@ const Page = ({ children }) => {
           <Nav className="mr-auto" navbar>
             {navbarItems.map((item) => (
               <NavItem key={item.path}>
-                <Link href={item.path}>
+                <Link href={item.path} passHref>
                   <Button
                     type="button"
                     className="btn btn-dark"
