@@ -1,7 +1,7 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
-import Page from '../src/components/Page';
+import Page from "../src/components/Page";
 
 const WorkExperience = () => {
   return (
@@ -10,11 +10,20 @@ const WorkExperience = () => {
         <title>Experience | NESH AMLANI</title>
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
-        <meta name="description" content="Currently developing using ReactJS & NextJS, while enhancing skills for BackEnd and Flutter." />
+        <meta
+          name="description"
+          content="Currently developing using ReactJS & NextJS, while enhancing skills for BackEnd and Flutter."
+        />
         <meta name="author" content="Nesh Amlani" />
-        <meta name="google-site-verification" content="wvMP8u5OEj3LMEgQM5naUQZoV31zkD28erSViRc1FAY" />
+        <meta
+          name="google-site-verification"
+          content="wvMP8u5OEj3LMEgQM5naUQZoV31zkD28erSViRc1FAY"
+        />
         <meta property="og:title" content="Nesh Amlani" />
-        <meta property="og:description" content="Currently developing using ReactJS & NextJS, while enhancing skills for BackEnd and Flutter." />
+        <meta
+          property="og:description"
+          content="Currently developing using ReactJS & NextJS, while enhancing skills for BackEnd and Flutter."
+        />
       </Head>
       <Page>
         <div className="row pt-5 pb-5">
@@ -29,9 +38,23 @@ const WorkExperience = () => {
               technologies such as ReactJS and NextJS.
             </div>
             <div className="fs-5">
-              I have been working in CipherNutz IT services from
-              September/2020 - Present. I have worked on many projects using
-              many different technologies.
+              I have been working in CipherNutz IT services from September/2020
+              - March 2022. I have worked on many projects using many different
+              technologies.
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="fs-3 mt-4">MuCrest:</div>
+          </div>
+          <div className="col-12 col-md-8">
+            <div className="fs-5 mt-3">
+              MuCrest is a IT service company providing Website and Hybrid App
+              development services from scratch using new technologies such as
+              ReactJS and NextJS.
+            </div>
+            <div className="fs-5">
+              I have been working in MuCrest from April/2022 - Present. I have
+              worked on many projects using many different technologies.
             </div>
           </div>
           <div className="row mt-5 d-flex justify-content-center">
@@ -49,8 +72,8 @@ const WorkExperience = () => {
             <div className="col-md-4 text-center p-4">
               <div className="fs-3 fw-bold">Front-End Developer</div>
               <div className="fs-5 mt-3">
-                I like to code things from scratch, and enjoy bringing ideas
-                to life in the browser.
+                I like to code things from scratch, and enjoy bringing ideas to
+                life in the browser.
               </div>
               <div className="mt-4 fs-4">Language:</div>
               <div className="text-start">
@@ -62,8 +85,8 @@ const WorkExperience = () => {
             <div className="col-md-4 text-center p-4">
               <div className="fs-3 fw-bold">Flutter Developer</div>
               <div className="fs-5 mt-3">
-                I like Hybrid App developer and so have started learning
-                Flutter Development.
+                I like Hybrid App developer and so have started learning Flutter
+                Development.
               </div>
               <div className="mt-4 fs-4">Language:</div>
               <div className="text-start">
@@ -74,7 +97,7 @@ const WorkExperience = () => {
         </div>
       </Page>
     </div>
-  )
+  );
 };
 
 export default WorkExperience;
